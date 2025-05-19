@@ -1,0 +1,12 @@
+.container .text{
+    background-color: yellow;
+    color:red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container .pula{
+    background-color: greenyellow;
+    color: purple;
+    font-size: 35px;
+}
