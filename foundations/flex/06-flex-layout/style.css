@@ -14,6 +14,10 @@ a{
   color: #979797;
 }
 
+a:hover{
+  text-decoration: underline;
+}
+
 img {
   width: 600px;
 }
@@ -22,21 +26,21 @@ button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
+  padding: 7px;
   background: #eee;
 }
 
 ul{
   list-style-type: none;
-}
-
-.left-links{
-  margin-right: auto;
+  padding: 0;
 }
 
 .left-links,
 .right-links{
   display: flex;
-  text-align: left;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 10px;
 }
 
 
@@ -50,15 +54,32 @@ input {
 .content{
   margin-bottom: auto;
   margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttons{
+  display: flex;
+  height: 100%;
+  gap: 10px;
+  flex: auto;
 }
 
 .header{
   display: flex;
-  background-color: #eee;
-  padding: 10px;
+  justify-content: space-between;
 }
 
 .footer{
   display: flex;
   background-color: #eee;
+  justify-content: space-between;
+}
+
+.header,
+.footer{
+  padding: 10px;
 }
