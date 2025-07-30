@@ -11,7 +11,8 @@ li {
 .container {
   text-align: center;
   display: grid;
-  grid-template-columns: 2fr 6fr;
+  grid-template-columns: 1fr 4fr;
+  gap: 4px;
 }
 
 .container div {
@@ -49,6 +50,8 @@ li {
 
 .sidebar {
   grid-row: 2 / 4;
+  display: grid;
+  gap: 50px;
   background-color: #c50208;
 }
 
